@@ -7,4 +7,4 @@ RUN npm install
 # Bundle app source
 COPY . .
 EXPOSE 1999
-CMD [ "node", "server.js" ]
+CMD [ "npm", "run""dev" ]
